@@ -14,6 +14,9 @@ const typeDefs = gql`
     wikipedia_url: String
     image: CatImage
     description: String!
+    code: Int!
+    success: Boolean!
+    message: String!
   }
 
   type CatImage {
